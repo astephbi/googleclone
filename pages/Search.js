@@ -1,12 +1,16 @@
 import Head from "next/head";
 import React from "react";
+import Header from "../components/Header";
 
 const Search = () => {
   return (
     <div>
       <Head>
-        <title>Search</title>
+        <title>Search Results</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* Header */}
+      <Header />
     </div>
   );
 };
